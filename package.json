@@ -1,0 +1,21 @@
+{
+  "homepage": "http://dkg976.github.io/react-deply-src",
+  "name": "nextjs-course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
